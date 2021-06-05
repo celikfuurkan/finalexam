@@ -9,4 +9,7 @@ class StudentController extends Controller
     public function editstudentinfo(){
 
     }
+    public function addstudent(){
+
+    }
 }

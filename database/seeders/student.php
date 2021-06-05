@@ -13,6 +13,10 @@ class student extends Seeder
      */
     public function run()
     {
-        //
+        student::create([
+            'name'=>'Furkan',
+            'surname'=>'Çelik',
+            'department'=>'Computer Engineer',
+        ])
     }
 }
